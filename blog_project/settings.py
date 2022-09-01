@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-9i8z#doe4+sz-##085(c71b8ypooh)20m41zrqyt))o#8=o1ux
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','193.151.131.52','api.megamouj.ir']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','193.151.131.52','api.megamouj.ir','dev.megamouj.ir','194.225.238.173']
 
 
 # Application definition
@@ -164,4 +164,3 @@ SITE_ID=1
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
